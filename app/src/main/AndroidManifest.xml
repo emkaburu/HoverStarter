@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.usehover.hoverstarter">
+    package="com.farmsuite.hover">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.farmsuite.hover.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,7 @@
         </activity>
         <meta-data
             android:name="com.hover.ApiKey"
-            android:value="YOUR_API_KEY"/>
+            android:value="626461ef8b5d34f798db988c34b4fb25"/>
     </application>
 
 </manifest>

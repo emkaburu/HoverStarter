@@ -1,4 +1,4 @@
-package com.usehover.hoverstarter;
+package com.farmsuite.hover;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.usehover.hoverstarter;
+package com.farmsuite.hover;
 
 import org.junit.Test;
 

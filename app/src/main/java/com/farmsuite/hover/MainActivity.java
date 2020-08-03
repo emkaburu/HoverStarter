@@ -1,4 +1,4 @@
-package com.usehover.hoverstarter;
+package com.farmsuite.hover;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements Hover.DownloadLis
 		    @Override
 		    public void onClick(View v) {
 			    Intent i = new HoverParameters.Builder(MainActivity.this)
-					.request("YOUR_ACTION_ID") // Add your action ID here
+					.request("5a05c8ad") // Add your action ID here
 //                    .extra("YOUR_VARIABLE_NAME", "TEST_VALUE") // Uncomment and add your variables if any
 					.buildIntent();
 			    startActivityForResult(i, 0);
